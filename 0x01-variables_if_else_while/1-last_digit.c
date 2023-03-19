@@ -25,15 +25,15 @@ int main(void)
 
 if (l > 5)
 	{
-	printf("%d is grater than 5", l);
+	printf("Last digit of %d is %d and is greater than 5", n, l);
 	}
 else if ((l < 6) && (l != 0))
 	{
-	printf("%d is less than 6 and not 0", l);
+	printf("Last digit of %d is %d and is less than 6 and not 0", n, l);
 	}
 else if (l == 0)
 	{
-	printf("%d is 0", l);
+	printf("Last digit of %d is %d and is 0", n, l);
 	}
 return (0);
 }
